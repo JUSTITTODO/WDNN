@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>TD_Label</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Ulity">
+      <HintPath>bin\x64\Debug\net6.0\Ulity.dll</HintPath>
+    </Reference>
+    <Reference Include="Veneti">
+      <HintPath>bin\x64\Debug\net6.0\Veneti.dll</HintPath>
+    </Reference>
+    <Reference Include="Yang">
+      <HintPath>bin\x64\Debug\net6.0\Yang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
